@@ -16,3 +16,8 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->group(['prefix' => 'products'], function () use ($router) {
+    $router->get('/', '\App\Http\Controllers\ProductController@create');
+    $router->get('/{id}', '\App\Http\Controllers\ProductController@details');
+});
