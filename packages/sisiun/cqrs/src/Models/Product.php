@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace sisiun\cqrs\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

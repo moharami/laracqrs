@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Queries;
+namespace sisiun\cqrs\Queries;
 
-use App\Models\Product;
 use JetBrains\PhpStorm\ArrayShape;
+use sisiun\cqrs\Models\Product;
 
 class ProductSimpleQuery
 {

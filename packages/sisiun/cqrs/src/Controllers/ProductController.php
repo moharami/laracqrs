@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace sisiun\cqrs\Controllers;
 
-use App\CommandBus;
-use App\Commands\CreateProductCommand;
-use App\Queries\ProductSimpleQuery;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use JetBrains\PhpStorm\ArrayShape;
+use sisiun\cqrs\CommandBus;
+use sisiun\cqrs\Commands\CreateProductCommand;
+use sisiun\cqrs\Queries\ProductSimpleQuery;
 
-class ProductController extends Controller
+class ProductController
 {
     public function __construct(public CommandBus $commandBus)
     {
@@ -33,3 +33,4 @@ class ProductController extends Controller
         return $query->getData();
     }
 }
+

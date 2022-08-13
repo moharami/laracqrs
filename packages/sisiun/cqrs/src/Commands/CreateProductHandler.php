@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Commands;
+namespace sisiun\cqrs\Commands;
 
-use App\Models\Product;
+use sisiun\cqrs\Models\Product;
 
 class CreateProductHandler
 {

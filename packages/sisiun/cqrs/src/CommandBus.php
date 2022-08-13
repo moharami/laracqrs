@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace sisiun\cqrs;
 
 use Illuminate\Support\Facades\App;
 use ReflectionClass;

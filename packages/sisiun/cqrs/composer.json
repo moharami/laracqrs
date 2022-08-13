@@ -1,0 +1,22 @@
+{
+    "name": "sisiun/cqrs",
+    "description": "A package for Command Query Responsibility Segregation (CQRS) in Lumen and Laravel ",
+    "autoload": {
+        "psr-4": {
+            "sisiun\\cqrs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saeed Yari",
+            "email": "saeedyari76@gmail.com"
+        },
+        {
+            "name": "amir Moharami fard",
+            "email": "a.moharami@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}

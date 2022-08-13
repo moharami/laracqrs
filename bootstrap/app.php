@@ -97,6 +97,7 @@ $app->configure('app');
 if ($app->environment() == 'local') {
     $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 }
+$app->register(\sisiun\cqrs\Providers\CqrsProvider::class);
 
 /*
 |--------------------------------------------------------------------------
