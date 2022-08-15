@@ -1,46 +1,22 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": [
-        "framework",
-        "laravel",
-        "lumen"
-    ],
-    "license": "MIT",
-    "type": "project",
-    "require": {
-        "php": "^8.0",
-        "laravel/lumen-framework": "^9.0"
-    },
-    "require-dev": {
-        "fakerphp/faker": "^1.9.1",
-        "flipbox/lumen-generator": "^9.1",
-        "mockery/mockery": "^1.4.4",
-        "phpunit/phpunit": "^9.5.10"
-    },
+    "name": "sisiun/cqrs",
+    "description": "A package for Command Query Responsibility Segregation (CQRS) in Lumen and Laravel ",
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "sisiun\\cqrs\\": "packages/sisiun/cqrs/src/"
+            "sisiun\\cqrs\\": "../../../src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
+    "authors": [
+        {
+            "name": "Saeed Yari",
+            "email": "saeedyari76@gmail.com"
+        },
+        {
+            "name": "amir Moharami fard",
+            "email": "a.moharami@gmail.com"
         }
-    },
-    "scripts": {
-        "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ]
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
 }
