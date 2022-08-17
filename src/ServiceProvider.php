@@ -1,10 +1,10 @@
 <?php
 
-namespace sisiun\cqrs\Providers;
+namespace sisiun\cqrs;
 
-use Illuminate\Support\ServiceProvider;
 
-class CqrsProvider extends ServiceProvider
+
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
      * Bootstrap services.
