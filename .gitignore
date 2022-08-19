@@ -1,11 +1,15 @@
 # Composer
+vendor
 composer.lock
-/vendor
 
 # PHPUnit
-/coverage/*
-/.phpunit.result.cache
+coverage/*
+.phpunit.result.cache
 
 # Editor and IDE
 .idea
 .vscode
+
+.env
+
+storage/logs/*.log
