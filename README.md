@@ -37,4 +37,4 @@ details of contribute goes here ...
 
 ## License
 
-MIT. Please see the [license file](license.md) for more information.
+MIT. Please see the [license file](LICENSE.md) for more information.
